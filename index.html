@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conférence en Ligne - L'Habitat du Futur</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .conference-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        h1 {
+            color: #333333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555555;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            color: #ff5722;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777777;
+            width: 100%;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .fb-plugin {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- SDK Facebook -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v17.0" 
+        nonce="FbPlugin">
+    </script>
+
+    <!-- Header -->
+    <header>
+        <h1>CONFÉRENCE EN LIGNE : L'HABITAT DU FUTUR !</h1>
+    </header>
+
+    <!-- Contenu principal -->
+    <div class="conference-container">
+        <!-- Image -->
+        <img src="https://via.placeholder.com/600x300?text=Image+de+l%27habitat+du+futur" alt="L'Habitat du Futur">
+
+        <!-- Description -->
+        <p>Chers passionnés de science et d'innovation,</p>
+        <p>La Cellule Science Kama vous invite à une conférence en ligne exceptionnelle sur Zoom 🎥✨.</p>
+        <p><strong>📌 Thème :</strong> L'Habitat du Futur : Vers une Autonomie Totale grâce à la Nanotechnologie</p>
+        <p><strong>📅 Date :</strong> 22 Février 79 A.H. (2025)</p>
+        <p><strong>⏰ Heure :</strong> 10h00 - 11h30 GMT</p>
+        <p><strong>🔗 Salle Zoom :</strong> Numéro <span class="highlight">6737184637</span></p>
+        <p>Rejoignez-nous pour explorer comment la nanotechnologie façonne l'avenir de nos habitats et nous rapproche d'une autonomie totale ! 🚀🏡</p>
+        <p>Ne manquez pas cette opportunité de découvrir le futur dès aujourd'hui ! 🔥</p>
+
+        <!-- Bouton Rejoindre -->
+        <a href="https://zoom.us/j/6737184637" class="btn" target="_blank">Rejoindre la Conférence</a>
+        
+        <!-- Plugins Facebook -->
+        <div class="fb-plugin">
+            <div class="fb-like" 
+                 data-href="https://web.facebook.com/profile.php?id=100090527852301" 
+                 data-width="" 
+                 data-layout="standard" 
+                 data-action="like" 
+                 data-size="small" 
+                 data-share="true">
+            </div>
+        </div>
+
+        <div class="fb-plugin">
+            <div class="fb-comments" 
+                 data-href="https://web.facebook.com/profile.php?id=100090527852301" 
+                 data-width="100%" 
+                 data-numposts="5">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            📢 Partagez et invitez vos amis !<br>
+            #Science #Innovation #HabitatDuFutur #Nanotechnologie
+        </footer>
+    </div>
+</body>
+</html>
